@@ -1,0 +1,499 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.share_div{
+	width: 100%;
+}
+.big_div{
+    width: 100%;
+    height: 5rem;
+    background: #ff5046;
+}
+.public{
+	width: 75%;
+    height: 5rem;
+    margin: auto;
+}
+.public_left{
+	float: left;
+	display: inline-block;
+    width: 20%;
+    margin-top: 1.5rem;
+}
+.public_right{
+    display: inline-block;
+    width: 70%;
+    margin-left: -2rem;
+    height: 5rem;
+}
+.public_right a{
+	color: white;
+}
+.public_right a:link{
+	color: #fff;
+}
+.public_right a:hover{
+	color: #fff;
+	opacity: 0.7;
+}
+.footer{
+	width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+	background: #f0f0f0;
+}
+.footer_head a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+span{
+	font-size: 14px;
+    color: #b2b2b2;
+}
+.footer_middle a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+.footer_tail a:link{
+	font-size: 14px;
+	color: #8b8a8a;
+}
+a{
+	text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    line-height: 4.8rem;
+    word-spacing: 2rem;
+}
+li{
+	display: inline-block;
+}
+.header{
+	width: 100%;
+	height:3.75rem;
+	background: #ffffff;
+}
+.header-site{
+	width: 40%;
+	height: 3.75rem;
+	margin-left: 30rem;
+}
+.header-site li{
+	width: 5rem;
+}
+.header-site a{
+	color: #333333;
+}
+.header-site .header-a{
+	color: #ff5046;
+}
+.header-site a:hover{
+	color: #FF5046;
+}
+.content{
+	width: 100%;
+	background: #f0f0f0;
+	height: 85rem;
+}
+.content1{
+	width: 65%;
+	height: 85rem;
+	margin-left: 12rem;
+}
+.content1-left{
+	width: 70%;
+	background: #FFFFFF;
+	height: 52rem;
+	float: left;
+	margin-top: 2rem;
+}
+.content1-right{
+	width: 26%;
+	background: #FFFFFF;
+	height: 52rem;
+	float: right;
+	margin-top: 2rem;
+}
+.content1-right a{
+	color: black;
+}
+.top-word{
+	width: 100%;
+	margin-top: 1.5rem;
+	height: 3.5rem;
+}
+.wordleft{
+	width: 15%;
+	border-left: 4px solid #ff734e;
+	float: left;
+	margin-left: 2rem;
+	font-size: larger;
+	text-align: center;
+}
+.wordleft a{
+	color: #666666;
+}
+.wordleft a:hover{
+	color: #FF734E;
+}
+.wordright{
+	width: 10%;
+	float:right;
+	color: #8B8A8A;
+}
+.c-img{
+	width: 90%;
+	height: 11rem;
+	margin: auto;
+	border-top: 1px solid gainsboro;
+	padding-top: 1rem;
+}
+.img-1{
+	width: 23.5%;
+	height: 10rem;
+	float: left;
+}
+.img-2{
+	width: 23.5%;
+	height: 10rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.c-img img{
+	width: 100%;
+	height: 7rem;
+}
+.c-img .img-c{
+	color: black;
+}
+.c-img .img-c:hover{
+	color: #FF734E;
+}
+.c-img .img-bottom{
+	color: #B2B2B2;
+}
+.nosee{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 16.8rem;
+	left: 14.2rem;
+	display: none; 
+}
+.nosee img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-1:hover .nosee{
+	display: block;
+}
+.nosee1{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 16.8rem;
+	left: 24rem;
+	display: none;
+}
+.nosee1 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee1{
+	display: block;
+} 
+.nosee2{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 16.8rem;
+	left: 33.5rem;
+	display: none;
+}
+.nosee2 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee2{
+	display: block;
+} 
+.nosee3{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 16.8rem;
+	left: 43rem;
+	display: none;
+}
+.nosee3 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee3{
+	display: block;
+} 
+.nosee4{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 33.8rem;
+	left: 14.2rem; 
+	display: none; 
+}
+.nosee4 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-1:hover .nosee4{
+	display: block;
+} 
+.nosee5{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 33.8rem;
+	left: 24rem;
+	display: none;
+}
+.nosee5 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee5{
+	display: block;
+} 
+.nosee6{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 33.8rem;
+	left: 33.5rem;
+	display: none;
+}
+.nosee6 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee6{
+	display: block;
+} 
+.nosee7{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 33.8rem;
+	left: 43rem;
+	display: none;
+}
+.nosee7 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee7{
+	display: block;
+} 
+.nosee8{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 50.9rem;
+	left: 14.2rem;
+	 display: none;
+}
+.nosee8 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-1:hover .nosee8{
+	display: block;
+} 
+.nosee9{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 50.9rem;
+	left: 24rem;
+	display: none;
+}
+.nosee9 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee9{
+	display: block;
+} 
+.nosee10{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 50.9rem;
+	left: 33.5rem;
+	display: none;
+}
+.nosee10 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee10{
+	display: block;
+} 
+.nosee11{
+	width: 9.5%;
+	height: 7rem;
+	position: absolute;
+	background: black;
+	opacity: 0.3;
+	top: 50.9rem;
+	left: 43rem;
+	display: none;
+}
+.nosee11 img{
+	width: 2rem;
+	height: 2rem;
+	padding: 2.5rem 3.5rem;
+}
+.img-2:hover .nosee11{
+	display: block;
+} 
+.wordtop{
+	width: 40%;
+	border-left: 4px solid #ff734e;
+	float: left;
+	margin: 2rem;
+	font-size: larger;
+	text-align: center;
+}
+.xian{
+	width: 90%;
+	height: 48rem;
+	margin:5rem auto;
+	border-top: 1px solid gainsboro;
+}
+.fen{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+}
+.l-img{
+	width: 25%;
+	height: 3.6rem;
+	
+}
+.r-word{
+	width: 70%;
+	height: 3.6rem;
+	margin-left: 1rem;
+}
+.r-word a{
+	color: #000000;
+}
+.r-word a:hover{
+	color: #FF734E;
+}
+.r-word span{
+	color: #8B8A8A;
+}
+.bottom-conten{
+	width: 65%;
+	height: 25rem;
+	position: absolute;
+	top: 65rem;
+	left: 12rem;
+	background: white;
+}
+.bottom-conten a{
+	color: #000000;
+}
+.wordleft1{
+	width: 15%;
+	border-left: 4px solid #ff734e;
+	float: left;
+	margin: 2rem;
+	font-size: larger;
+	text-align: center;
+}
+.bc-img{
+	width: 90%;
+	height: 20rem;
+	margin: 5rem auto;
+	border-top: 1px solid gainsboro;
+}
+/* .bc-img a{
+	float: left;
+    display: inline;
+    margin: 0 10px 10px 0;
+    width: 300px;
+    height: 122px;
+    overflow: hidden;
+} */
+.top-img{
+	width: 100%;
+	height: 8rem;
+	display: flex;
+}
+.top-img img{
+	width: 100%;
+	height: 8rem;
+}
+.one{
+	width: 30%;
+	height: 8rem;
+	margin-left: 2rem;
+}
+.two{
+	width: 30%;
+	height: 8rem;
+	float: left;
+	margin-left: 1rem;
+}
+.three{
+	width: 30%;
+	height: 8rem;
+	margin-left: 1rem;
+	float: left;
+}
+.b-img{
+	width: 100%;
+	height: 8rem;
+	display: flex;
+	margin-top: 1.5rem;
+}
+.b-img img{
+	width: 100%;
+	height: 8rem;
+}
