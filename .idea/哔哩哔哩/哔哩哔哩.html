@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"content="width=device-width"/>
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			html{height: 100%;overflow: hidden;}
+			body{height: 100rem;overflow:auto;background-color: rgba(233,233,233,0.5);}
+			ul{list-style: none;}
+			a{text-decoration: none;color: #000000;}
+			span{display: block;}
+			
+			#search_bili{width: 100%;height: 4rem;display: flex;flex-wrap: nowrap;background: rgba(255,119,142,0.9);}
+			#search_bili ul{display: flex;width: 100%;flex-wrap: nowrap;}
+			#search_bili ul li{width: 15%;height: 4rem;text-align: center;}
+			#search_bili ul li:nth-of-type(2){width: 53%;}
+			#search_bili .icon{width: 45%;height: 4rem;fill: white;}
+			
+			
+			#banner_bili{width: 100%;height: 3rem;display: flex;width: 100%;overflow-x:scroll;background-color: white;} /*父类上定义溢出滚动  */        
+			#banner_bili ul{list-style: none;width: 120%;box-sizing: border-box;display: flex;}/*ul上定义宽度百分比超出*/
+			#banner_bili ul li{width:8rem;height: 3rem;font-size: 1.3rem;line-height: 3rem;text-align: center;}/*此处的li一定要写确切的宽度*/
+			#banner_bili ul li a{color: black;}
+			
+			
+			.stiky{position: fixed;z-index: 888;width:100%;height:4rem;text-align: center;margin-top:100%;display: flex;background: white;background-color: white;}/*此处是整个页面的固定条*/
+			.stiky ul{list-style: none;display: flex;width:100%;}
+			.stiky ul li{width:24%;text-align: center;height:4rem;}
+			.stiky ul li a{display: block;height: 1rem;width:100%; font-size: 1rem;color: black;line-height: 1.5rem;
+			              font-weight: bolder;font-weight: 400;}          
+			.stiky .icon{width: 100%;height: 1.4rem;margin-top: 0.5rem;}
+			
+			#tuijian_bili{width: 100%;height:27rem;display: flex;flex-wrap: wrap;overflow-y: scroll;}
+			#tuijian_bili div{width: 46%;height: 12.5rem;margin: 1.5%;border-radius: 0.6rem;overflow: hidden;position: relative;background-color: white;}
+			
+			#tuijian_bili div img{width: 100%;height: 7rem;}
+			#tuijian_bili div span{width: 100%;height: 1rem;position: absolute;top: 5.7rem;z-index: 999;color: white;fill: white;}
+			#tuijian_bili div  span .icon{width:15%;height: 1rem;}
+			#tuijian_bili div a{display: block;width: 100%;height: 2rem;padding: 0.5rem;font-size: 1rem;}
+			#tuijian_bili div p{display: block;width: 100%;height: 2rem;padding-left: 0.5rem;padding-top: 0.5rem;color: gray;font-weight: 450;}
+			#tuijian_bili div p .icon{width:10%;height: 1.5rem;padding-right: 1rem;float: right;}
+		</style>
+	</head>
+	<body>
+		<div id="search_bili">
+			<ul>
+				<li><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-contacts"></use></svg></li>
+				<li><input type="text"value="教你如何蹭课"style="width: 90%;text-align: center;height: 2rem;border-radius: 1rem;
+					margin-top: 1rem;background: rgba(210,210,210,0.3);border: none;color: whitesmoke;"></li>
+				<li><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-beer"></use></svg></li>
+				<li><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-cloud-download"></use></svg></li>
+				<li><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-mail-unread"></use></svg></li>
+			</ul>
+		</div>
+		<div id="banner_bili">
+			
+			<ul>
+				<li><a href="#">直播</a></li>
+				<li><a href="#">推荐</a></li>
+				<li><a href="#">热门</a></li>
+				<li><a href="#">追番</a></li>
+				<li><a href="#">影视</a></li>
+				<li><a href="#">70年</a></li>
+				
+			</ul>
+			
+		</div>
+		 <div class="stiky">
+			<ul>
+				<li><a href="#"style="color: red;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-zhibojiankan"style="fill: red;"></use></svg><br>首页</a></li>
+				<li><a href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg><br>分类</a></li>
+				<li><a href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search-seal"></use></svg><br>发现</a></li>
+				<li><a href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cart"></use></svg><br>购物车</a></li>
+			</ul>
+		    </div>
+		<div id="tuijian_bili">
+			<div>
+				<img src="img/1.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万<svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">万物皆可方便面修补？小伙试用</a>
+				<p>小翔哥<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+			
+			
+			<div>
+				<img src="img/2.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万
+					    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">史上最奢侈泡面，198一碗！</a>
+				<p>一碗编辑部<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+			
+			<div>
+				<img src="img/7.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万
+					    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">宁波街边开了二十年的铁板烧，大妈说</a>
+				<p>徐大宁<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+		
+		    <div>
+				<img src="img/4.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万
+					    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">国内顶级主持人应变现场，董卿赢了</a>
+				<p>徐大宁<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+			
+			<div>
+				<img src="img/5.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万
+					    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">三十便十三，毕业季惊艳妆容，靓女出街！</a>
+				<p>徐大宁<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+			
+			<div>
+				<img src="img/6.PNG">
+				<span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-eye"></use></svg>6.3万
+					    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-md-star"></use></svg>6.3万</span>
+				<a href="#">鲍鱼配粉丝金针菇，麻辣鲜香，配上蒜蓉辣酱！</a>
+				<p>徐大宁<svg class="icon" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg></p>
+			</div>
+			
+	
+		</div>
+	</body>
+	<script src="js/iconfont.js"></script>
+</html>
