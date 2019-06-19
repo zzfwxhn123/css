@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<hr />
+	
+	</body>
+               1.<hr />代表在页面插入一条水平线
+           	   2.<p></p>代表段落标签，会自动换行
+           	   3.<stong></stong><b></b>代表加粗
+           	   4.<del></del><s></s>代表删除线
+           	   5.<em></em>代表斜体
+           	   6.<ins></ins><u></u>代表下划线
+           	   7.标签的属性：<标签名  属性1="属性值1"></标签名>
+           	   8.图像标签<img/> 可以使用src 图片路径 alt（图像无法正常显示时提示文本）
+           	        title（鼠标悬停于图像时显示的文本）    width（图像的宽度）  
+           	          height（图像的高度） border（图像边框属性
+           	   9.超链接标签<a></a>  <a  href="跳转目标（#表示空链接）" target="目标窗口的弹出方式">超链接文本或图像</a>
+           	   10.瞄点
+           	   11.<base>标签 限定同一界面内所有超链接的打开方式<base target="_blank">
+           	   12.<img /> <br/> <hr /> <base />都是自闭合标签
+           	   13.转义字符  空格（&nbsp）  小于号（&lt）    大于号（&gt）    
+           	              和号（&amp）   人名币（&yen）   版权 （&copy）  注册商标 （$reg） 
+           	            摄氏度(&deg)   正负号(&piusmn)  乘号(&times)  除号(&divide)
+           	   14.注释标签(<!---->)
+           	   15.相对路径  绝对路径
+           	   16.无序列表<ul></ul>以小圆点或者小方块作为行首标志的列表 只能嵌套<li></li>
+           	   17.<li></li>可以嵌套任意标签
+           	   18.有序列表<ol></ol>  嵌套<li></li> 以1。2.3作为行首排序标志
+           	   19.自定义列表<dl></dl> <dl></dl>为外层标签,列表项前不具有任何项目符号
+           	                     <dt></dt>为内层标签（可以嵌套<dd></dd>）
+           	   20. 表格标签table <table></table>用来定义表格
+           	         <tr></tr>用来定义行，嵌套在<table></table>中。      <td></td>定义行中的单元格，嵌套在<tr></tr>。
+           	         <tr></tr>只能嵌套<td></td>   <td></td>可以嵌套任意元素
+           	   21.表格属性  border(表格的边框  像素值)   cellspacing(单元格与单元格边框之间的间距)  
+           	    cellpadding(单元格内容与单元格边框之间的间距)   width()   
+           	     height()   align (表格在页面的水平对齐方式)  
+           	     caption(标题 文本) {  colspan(从当前列横跨几列 数字)
+           	         rowspan(从当前列竖跨几列 数字)  作用于<th></th> <td></td>中}
+           	   22.表头标签<th></th>显示时默认为加粗效果  可以替代<td></td>
+           	   23.表格结构  <thead></thead>定于头部   <tbody></tbody>定义表格的主体
+               24.网页元素检查  基于chrome浏览器，在页面中右击，然后选择检查
+               25.表格标题标签caption  <caption></caption>用来定义标题的标签 
+                                      必须写在<table></table>中，和<thead></thead>同级
+               26.单元格合并 {  colspan(从当前列横跨几列 数字)
+           	         rowspan(从当前列竖跨几列 数字)  作用于<th></th> <td></td>中}
+               27.表单标签{完整表单 通常由表单元素/提示信息/表单域三部分组成
+               	   1.imput输入标签   
+               	     <input>为单标签就是自闭合标签
+               	     type是其基本属性，用来控制输入的类型
+               	        type="text" 单行文本输入框
+               	        type="password"密码输入框
+               	        type="radio"单选框
+               	        type="checkbox"复选框
+               	        type=" button"普通按钮
+               	        type="submit"提交按钮
+               	        type="reset"重置按钮
+               	        type="image"图像形式的提交按钮
+               	        type="file"文件域
+               	        name="任意文本"控件名称 相同则表示是同一组数据
+               	        value="任意文本"
+               	         size="正整数"显示大小
+               	         checked="checked"默认是否被选中
+               	         maxlength="正整数"控制输入的最大字符数量
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               	
+               }
+               
+               
+               
+               28.
+               29.
+               30.
+               31.
+               32.
+               33.
+               34.
+               35.
+               
+          
+          
+           
+</html>
