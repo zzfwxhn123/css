@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css"href="css/支付宝.css"/>
+		<style type="text/css">
+			 
+			html{height: 100%;overflow: hidden;}
+			body{height: 100rem;overflow: scroll;}
+			*{margin: 0;padding: 0;}
+			a{text-decoration: none;display: block;}
+			ul{list-style: none;width: 100%;display: flex;justify-content: flex-start;}
+			span{display: block;}
+			p{display: block;}
+			.icon{width: 100%;fill: white;}
+			
+			#search_pay{width: 100%;height: 6rem;background-color: #1C81D1;position: fixed;}
+			#search_pay li{width: 10%;height: 6rem;padding-top: 1.5rem;}
+			#search_pay ul li:nth-of-type(1){width: 78%;}
+			#search_pay ul li:nth-of-type(2),#search_pay ul li:nth-of-type(3){padding-top: 2rem;}
+			#search_pay ul li .icon{height: 3rem;}
+			
+			#iconlist_pay{width: 100%;height: 13rem;background-color: #1C81D1;position: fixed;top: 6rem;}
+			#iconlist_pay li{width: 19%;height: 9rem;margin-left:5%;margin-top: 2rem;
+			                  text-align: center;}
+			#iconlist_pay li:nth-of-type(4){margin-right: 5%;}
+			#iconlist_pay li .icon{width: 80%;height: 5.5rem;}
+			#iconlist_pay li a{color: white;font-size: 2.2rem;}
+			
+			.function{width: 100%;height: 35rem;border-bottom: 1.2rem solid #F3F3F3;margin-top: 19rem;}
+			.function ul{flex-wrap: wrap;}
+			.function li{width: 19%;height: 9rem;margin-left:5%;margin-top: 2rem;text-align: center;}
+			.function img{width: 55%;height: 5rem;}
+			.function a{color:black;font-size: 1.9rem;}
+			.function .icon{fill: grey;height: 5rem;padding-top: 0.2rem;}
+			
+			.message_pay{width: 100%;height: 10rem;border-bottom: 1.2rem solid #F3F3F3;display: flex;overflow: hidden;}
+			.message_pay1{width: 20%;}
+			.message_pay1 img{width: 100%;height: 10rem;}
+			
+			.message_pay2{width: 60%;}
+			
+			.message_pay2 p{width: 100%;height: 5rem;font-size: 2rem;line-height: 5rem;}
+			.message_pay3{width: 20%;}
+			.message_pay3 .icon{width: 20%;float: right;padding-right: 10%;}
+			
+			.cicle-background{width: 100%;height: 12rem;}
+		    .cicle-background img{width: 100%;height: 12rem;}
+			
+			#function_2{width: 100%;height: 40rem;border: 1px solid saddlebrown;}
+			#function_2 span {width: 90%;height: 15rem;display: flex;flex-wrap: wrap;margin-left: 5%;margin-right: 5%;margin-top: 3rem;}
+			#function_2 span a{width: 100%;height: 5rem;font-size: 3rem;font-weight: 700;}
+			#function_2 span div{width: 49%;height: 10rem;display: flex;border: 1px solid lightgrey;}
+			#function_2 span div p:nth-of-type(1){width: 65%;height: 10rem;padding-left: 2%;font-size: 2rem;padding-top: 2rem;}
+			#function_2 span div p:nth-of-type(2){width: 35%;height: 10rem;padding-top: 1rem;}
+			#function_2 span div p:nth-of-type(2) img{width:100%;height: 9rem;}
+			
+		</style>
+	</head>
+	<body>
+		<div id="search_pay">
+			<ul>
+				<li><input type="text"value="洪城一卡通"style="width: 87%;height: 4rem;margin-left: 6%;margin-right: 7%;background-image: url(img/11.PNG);background-repeat: no-repeat;
+					              background-size: 3rem;background-position: 1rem 1rem;font-size: 1.8rem;color: darkslategrey;text-align: center;"></li>
+				<li><svg class="icon" aria-hidden="true"><use xlink:href="#icon-meitihao"></use></svg></li>
+				<li><svg class="icon"aria-hidden="true"><use xlink:href="#icon-md-add"></svg></use></li>
+				
+			</ul>
+		</div>
+		
+		<div id="iconlist_pay">
+			<ul>
+				<li><svg class="icon"aria-hidden="true"><use xlink:href="#icon-md-expand"></svg></use><br><a herf="">扫一扫</a></li>
+				<li><svg class="icon"aria-hidden="true"><use xlink:href="#icon-md-card"></svg></use><br><a href="">付钱</a></li>
+				<li><svg class="icon"aria-hidden="true"><use xlink:href="#icon-alipay-line"></svg></use><br><a href="">收钱</a></li>
+				<li><svg class="icon"aria-hidden="true"><use xlink:href="#icon-md-cube"></svg></use><br><a href="">卡包</a></li>
+				
+			</ul>
+		</div>
+		
+		
+		<div class="function">
+			<ul>
+				<li><a href="#"><img src="img/1.PNG"><br>转账</a></li>
+				<li><a href="#"><img src="img/2.PNG"><br>充值中心</a></li>
+				<li><a href="#"><img src="img/3.PNG"><br>余额宝</a></li>
+				<li><a href="#"><img src="img/4.PNG"><br>蚂蚁森林</a></li>
+				<li><a href="#"><img src="img/5.PNG"><br>交通出行</a></li>
+				<li><a href="#"><img src="img/6.PNG"><br>花呗</a></li>
+				<li><a href="#"><img src="img/7.PNG"><br>奖励金</a></li>
+				<li><a href="#"><img src="img/8.PNG"><br>我的快递</a></li>
+				<li><a href="#"><img src="img/9.PNG"><br>芝麻信用</a></li>
+				<li><a href="#"><img src="img/10.PNG"><br>运动</a></li>
+				<li><a href="#"><svg class="icon"aria-hidden="true"><use xlink:href="#icon-windows-fill"></svg></use><br>更多</a></li>
+			</ul>
+		</div>
+		
+		<div class="message_pay">
+			<span class="message_pay1">
+				  <img src="img/12.PNG"> 
+			</span>
+			<span class="message_pay2">
+				<p>• 快去捐步兑换公益金 </p>
+				<p>• 你有一张券即将到期</p>
+			</span>
+			<span class="message_pay3"><svg class="icon"aria-hidden="true"><use xlink:href="#icon-arrow-right"></svg></span>
+			
+			
+		</div>
+		
+		<div class="cicle-background">
+			  
+						<img src="img/13.PNG"/id="pic">
+		</div>
+		<section id="function_2">
+			<span>
+				<a>惠支付</a>
+				<div>
+				   <p>
+					   <b>天天抽奖</b><br>今日限量免费抽
+				   </p>
+				   <p>
+					   <img src="img/16.PNG">
+				   </p>
+				</div>
+				
+				<div>
+				   <p>
+					   <b>赚钱红包升级</b><br>42份赏金到手
+				   </p>
+				   <p>
+					   <img src="img/17.PNG">
+				   </p>
+				</div>
+			</span>
+			
+			<span>
+				<a>生活服务</a>
+				<div>
+				   <p>
+					   <b>申请社保补贴</b><br>哪些人有资格？
+				   </p>
+				   <p>
+					   <img src="img/18.PNG">
+				   </p>
+				</div>
+				
+				<div>
+				   <p>
+					   <b>养老保险解读</b><br>养老金会被花光吗？
+				   </p>
+				   <p>
+					   <img src="img/19.PNG">
+				   </p>
+				</div>
+			</span>
+			
+			
+			
+		</section>
+		
+	</body>
+	<script src="js/iconfont.js"></script>
+	<script>
+    //使用数组保存图片的地址
+    var imgs=["img/14.PNG","img/13.PNG",]
+             
+    var index=0;
+    function qiehuan()
+    {
+        document.getElementById("pic").src=imgs[index];
+        index++;
+        if(index > 3){
+            index=0;
+                     }
+    }
+    setInterval("qiehuan()",4000);
+    </script>
+</html>
